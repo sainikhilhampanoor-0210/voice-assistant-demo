@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Voice Assistant · Hampanoor Sai Nikhil</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="app.mjs"></script>
+<header><a href="./">Project demo</a><a href="https://github.com/sainikhilhampanoor-0210">GitHub ↗</a></header>
+<main>
+<section class="hero"><p class="eyebrow">HAMPANOOR SAI NIKHIL</p><h1>Voice Assistant</h1></section>
+<section class="project" id="voice">
+<div><h2>Voice assistant</h2><p>Ask about an order or policy, then play the reply. Try “Where is order A1042?” followed by “Check it again.”</p><p class="sample">Microphone input depends on browser support and permission. You can also type.</p></div>
+<form data-mode="voice"><label for="voice-input">Message or speech transcript</label><div class="row"><input id="voice-input" required placeholder="Where is order A1042?"><button>Send</button></div><div class="row actions"><button type="button" id="mic">Use microphone</button><button type="button" id="speak" disabled>Play reply</button></div><p role="status" id="voice-status"></p><output aria-live="polite"></output></form>
+</section>
+</main>
+<footer>Hampanoor Sai Nikhil · Demonstrations use fictional data.</footer>
+</html>
