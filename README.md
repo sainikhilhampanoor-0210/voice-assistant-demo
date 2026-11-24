@@ -9,3 +9,7 @@ Run `python3 -m http.server 8000` from this directory and open http://localhost:
 ## GitHub Pages
 
 In Settings → Pages, choose Deploy from a branch, then main and /(root).
+
+## Python backend
+
+[Run the FastAPI service and interactive client](BACKEND.md).
